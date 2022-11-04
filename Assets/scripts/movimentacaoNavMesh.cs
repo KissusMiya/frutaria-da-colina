@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 public class movimentacaoNavMesh : MonoBehaviour
 {
-    public GameObject Point;
+    public GameObject BotaoEsquerdo;
     private NavMeshAgent agent;
 
     void Start()
@@ -12,12 +12,12 @@ public class movimentacaoNavMesh : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
-        Point = GameObject.Find("Point");
+        BotaoEsquerdo = GameObject.Find("Point");
     }
 
 
     void Update()
     {
-        agent.SetDestination(Point.transform.position);
+        agent.SetDestination(BotaoEsquerdo.transform.position);
     }
 }
