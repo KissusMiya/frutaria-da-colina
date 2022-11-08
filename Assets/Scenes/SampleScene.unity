@@ -341,7 +341,7 @@ GameObject:
   - component: {fileID: 128842253}
   - component: {fileID: 128842252}
   - component: {fileID: 128842254}
-  - component: {fileID: 128842255}
+  - component: {fileID: 128842256}
   m_Layer: 0
   m_Name: criado mudo
   m_TagString: Untagged
@@ -442,7 +442,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.8932714, y: 7.408243}
   m_EdgeRadius: 0
---- !u!114 &128842255
+--- !u!114 &128842256
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -451,7 +451,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 128842251}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -468,9 +468,8 @@ GameObject:
   m_Component:
   - component: {fileID: 178062593}
   - component: {fileID: 178062592}
-  - component: {fileID: 178062595}
-  - component: {fileID: 178062597}
   - component: {fileID: 178062596}
+  - component: {fileID: 178062598}
   m_Layer: 0
   m_Name: Interior da loja
   m_TagString: Untagged
@@ -545,22 +544,6 @@ Transform:
   m_Father: {fileID: 67571761}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &178062595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178062591}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_OverrideArea: 1
-  m_Area: 0
-  m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
 --- !u!68 &178062596
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -592,27 +575,22 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
---- !u!50 &178062597
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &178062598
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 178062591}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &262493739
 GameObject:
   m_ObjectHideFlags: 0
@@ -758,7 +736,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 296423549}
-  - component: {fileID: 296423548}
   - component: {fileID: 296423550}
   m_Layer: 0
   m_Name: NavMashplus
@@ -767,40 +744,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &296423548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 296423547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e011fba432bdee45898dc392910454e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AgentTypeID: 0
-  m_CollectObjects: 2
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: 2, z: 0}
-  m_LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_UseGeometry: 1
-  m_OverrideByGrid: 0
-  m_UseMeshPrefab: {fileID: 0}
-  m_CompressBounds: 0
-  m_OverrideVector: {x: 1, y: 1, z: 1}
-  m_DefaultArea: 0
-  m_IgnoreNavMeshAgent: 1
-  m_IgnoreNavMeshObstacle: 1
-  m_OverrideTileSize: 0
-  m_TileSize: 256
-  m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
-  m_BuildHeightMesh: 0
-  m_HideEditorLogs: 0
-  m_NavMeshData: {fileID: 23800000, guid: 377df6b454be2354d8551a439a06967b, type: 2}
 --- !u!4 &296423549
 Transform:
   m_ObjectHideFlags: 0
@@ -853,7 +796,7 @@ MonoBehaviour:
   m_VoxelSize: 0.16666667
   m_BuildHeightMesh: 0
   m_HideEditorLogs: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 81bff2c1e5eb3a44c95969d11f079ba1, type: 2}
 --- !u!1 &318426097
 GameObject:
   m_ObjectHideFlags: 0
@@ -949,7 +892,7 @@ GameObject:
   - component: {fileID: 353352894}
   - component: {fileID: 353352896}
   - component: {fileID: 353352897}
-  - component: {fileID: 353352898}
+  - component: {fileID: 353352899}
   m_Layer: 0
   m_Name: 'guarda roupa '
   m_TagString: Untagged
@@ -1050,7 +993,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10.197434, y: 4.079893}
   m_EdgeRadius: 0
---- !u!114 &353352898
+--- !u!114 &353352899
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1059,7 +1002,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 353352893}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -1343,7 +1286,7 @@ GameObject:
   - component: {fileID: 485492451}
   - component: {fileID: 485492452}
   - component: {fileID: 485492453}
-  - component: {fileID: 485492454}
+  - component: {fileID: 485492455}
   m_Layer: 0
   m_Name: 'cama '
   m_TagString: Untagged
@@ -1444,7 +1387,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.883705, y: 11.36264}
   m_EdgeRadius: 0
---- !u!114 &485492454
+--- !u!114 &485492455
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1453,7 +1396,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 485492450}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -1677,7 +1620,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -2016,7 +1959,7 @@ GameObject:
   - component: {fileID: 684586352}
   - component: {fileID: 684586353}
   - component: {fileID: 684586354}
-  - component: {fileID: 684586355}
+  - component: {fileID: 684586356}
   m_Layer: 0
   m_Name: 'mesa '
   m_TagString: Untagged
@@ -2117,7 +2060,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.4057693, y: 9.221939}
   m_EdgeRadius: 0
---- !u!114 &684586355
+--- !u!114 &684586356
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2126,7 +2069,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 684586351}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -2144,7 +2087,7 @@ GameObject:
   - component: {fileID: 694915892}
   - component: {fileID: 694915891}
   - component: {fileID: 694915893}
-  - component: {fileID: 694915894}
+  - component: {fileID: 694915895}
   m_Layer: 0
   m_Name: bau
   m_TagString: Untagged
@@ -2245,7 +2188,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 14.301424, y: 10.573529}
   m_EdgeRadius: 0
---- !u!114 &694915894
+--- !u!114 &694915895
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2254,7 +2197,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 694915890}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -2572,7 +2515,7 @@ GameObject:
   - component: {fileID: 989810710}
   - component: {fileID: 989810711}
   - component: {fileID: 989810712}
-  - component: {fileID: 989810713}
+  - component: {fileID: 989810714}
   m_Layer: 0
   m_Name: torneira
   m_TagString: Untagged
@@ -2663,7 +2606,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.000061035156}
   serializedVersion: 2
   m_Radius: 9.179999
---- !u!114 &989810713
+--- !u!114 &989810714
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2672,7 +2615,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 989810709}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -2724,7 +2667,6 @@ GameObject:
   m_Component:
   - component: {fileID: 997555899}
   - component: {fileID: 997555898}
-  - component: {fileID: 997555900}
   m_Layer: 0
   m_Name: tapete
   m_TagString: Untagged
@@ -2772,7 +2714,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: db750325989564987a34393247d883b4, type: 3}
   m_Color: {r: 0.5754717, g: 0.43422437, b: 0.3230242, a: 1}
   m_FlipX: 0
@@ -2799,22 +2741,6 @@ Transform:
   m_Father: {fileID: 276432388}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &997555900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 997555897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_OverrideArea: 1
-  m_Area: 0
-  m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff
 --- !u!1 &1037349760
 GameObject:
   m_ObjectHideFlags: 0
@@ -2826,7 +2752,7 @@ GameObject:
   - component: {fileID: 1037349761}
   - component: {fileID: 1037349762}
   - component: {fileID: 1037349763}
-  - component: {fileID: 1037349764}
+  - component: {fileID: 1037349765}
   m_Layer: 0
   m_Name: tp QLoja
   m_TagString: Untagged
@@ -2927,7 +2853,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1037349764
+--- !u!114 &1037349765
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2936,7 +2862,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1037349760}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -2954,7 +2880,7 @@ GameObject:
   - component: {fileID: 1039445232}
   - component: {fileID: 1039445233}
   - component: {fileID: 1039445234}
-  - component: {fileID: 1039445235}
+  - component: {fileID: 1039445236}
   m_Layer: 0
   m_Name: estante 2
   m_TagString: Untagged
@@ -3055,7 +2981,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.346845, y: 5.6754045}
   m_EdgeRadius: 0
---- !u!114 &1039445235
+--- !u!114 &1039445236
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3064,7 +2990,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1039445231}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -3081,8 +3007,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1087727575}
   - component: {fileID: 1087727574}
-  - component: {fileID: 1087727577}
   - component: {fileID: 1087727576}
+  - component: {fileID: 1087727578}
   m_Layer: 0
   m_Name: Interior do Quarto
   m_TagString: Untagged
@@ -3183,7 +3109,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 17.666313, y: 9.2242}
   m_EdgeRadius: 0
---- !u!114 &1087727577
+--- !u!114 &1087727578
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3192,7 +3118,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1087727573}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -3293,6 +3219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1277968000}
   - component: {fileID: 1277967999}
+  - component: {fileID: 1277968001}
   m_Layer: 0
   m_Name: entrada dos cliente
   m_TagString: Untagged
@@ -3367,6 +3294,22 @@ Transform:
   m_Father: {fileID: 67571761}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1277968001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277967998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 1
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffff
 --- !u!1 &1314344824
 GameObject:
   m_ObjectHideFlags: 0
@@ -3378,7 +3321,7 @@ GameObject:
   - component: {fileID: 1314344825}
   - component: {fileID: 1314344826}
   - component: {fileID: 1314344827}
-  - component: {fileID: 1314344828}
+  - component: {fileID: 1314344829}
   m_Layer: 0
   m_Name: tp LQuarto
   m_TagString: Untagged
@@ -3479,7 +3422,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1314344828
+--- !u!114 &1314344829
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3488,7 +3431,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1314344824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -3758,7 +3701,7 @@ GameObject:
   - component: {fileID: 1378286198}
   - component: {fileID: 1378286199}
   - component: {fileID: 1378286200}
-  - component: {fileID: 1378286201}
+  - component: {fileID: 1378286202}
   m_Layer: 0
   m_Name: tp QLoja
   m_TagString: Untagged
@@ -3859,7 +3802,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1378286201
+--- !u!114 &1378286202
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3868,7 +3811,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1378286197}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -4138,7 +4081,7 @@ GameObject:
   - component: {fileID: 1487958695}
   - component: {fileID: 1487958694}
   - component: {fileID: 1487958696}
-  - component: {fileID: 1487958697}
+  - component: {fileID: 1487958698}
   m_Layer: 0
   m_Name: balcao 1
   m_TagString: Untagged
@@ -4239,7 +4182,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 11.090911, y: 5.3833766}
   m_EdgeRadius: 0
---- !u!114 &1487958697
+--- !u!114 &1487958698
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4248,7 +4191,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1487958693}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -4266,7 +4209,7 @@ GameObject:
   - component: {fileID: 1529317693}
   - component: {fileID: 1529317692}
   - component: {fileID: 1529317694}
-  - component: {fileID: 1529317695}
+  - component: {fileID: 1529317696}
   m_Layer: 0
   m_Name: balcao 2
   m_TagString: Untagged
@@ -4367,7 +4310,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.8946657, y: 8.035899}
   m_EdgeRadius: 0
---- !u!114 &1529317695
+--- !u!114 &1529317696
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4376,7 +4319,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1529317691}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -4478,7 +4421,7 @@ GameObject:
   - component: {fileID: 1667637604}
   - component: {fileID: 1667637605}
   - component: {fileID: 1667637606}
-  - component: {fileID: 1667637607}
+  - component: {fileID: 1667637608}
   m_Layer: 0
   m_Name: 'cadeira '
   m_TagString: Untagged
@@ -4579,7 +4522,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.1219444, y: 6.5652237}
   m_EdgeRadius: 0
---- !u!114 &1667637607
+--- !u!114 &1667637608
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4588,7 +4531,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1667637603}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -4909,8 +4852,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1889757850}
   - component: {fileID: 1889757851}
-  - component: {fileID: 1889757853}
   - component: {fileID: 1889757852}
+  - component: {fileID: 1889757854}
   m_Layer: 0
   m_Name: chao quital
   m_TagString: Untagged
@@ -5011,7 +4954,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9226512, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1889757853
+--- !u!114 &1889757854
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5020,7 +4963,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1889757849}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -5242,7 +5185,7 @@ GameObject:
   - component: {fileID: 1964391275}
   - component: {fileID: 1964391274}
   - component: {fileID: 1964391276}
-  - component: {fileID: 1964391277}
+  - component: {fileID: 1964391278}
   m_Layer: 0
   m_Name: tp LQuital
   m_TagString: Untagged
@@ -5343,7 +5286,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1964391277
+--- !u!114 &1964391278
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5352,7 +5295,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1964391273}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
@@ -5370,7 +5313,7 @@ GameObject:
   - component: {fileID: 1972395406}
   - component: {fileID: 1972395407}
   - component: {fileID: 1972395408}
-  - component: {fileID: 1972395409}
+  - component: {fileID: 1972395410}
   m_Layer: 0
   m_Name: 'estante 1 '
   m_TagString: Untagged
@@ -5471,7 +5414,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.2501864, y: 5.4671803}
   m_EdgeRadius: 0
---- !u!114 &1972395409
+--- !u!114 &1972395410
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5480,7 +5423,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1972395405}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 781171994101d4148b83d3fd47840bf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_OverrideArea: 1
