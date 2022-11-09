@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShopToGardenTeleport : MonoBehaviour
+public class ShopGardenTeleport : MonoBehaviour
 {
-	/*private Transform destination;
+	private Transform destination;
 
 	public bool teleport4;
 	public float distance = 0.2f;
 
 	void Start()
 	{
-		if (teleport2 == true)
+		if (teleport4 == true)
 		{
 			destination = GameObject.FindGameObjectWithTag("teleport3").GetComponent<Transform>();
 		}
@@ -28,5 +28,5 @@ public class ShopToGardenTeleport : MonoBehaviour
 		{
 			other.transform.position = new Vector2 (destination.position.x, destination.position.y);
 		}
-	}*/
+	}
 }
