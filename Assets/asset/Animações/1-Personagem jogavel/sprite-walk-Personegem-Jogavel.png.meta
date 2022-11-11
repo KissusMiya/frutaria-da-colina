@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7beeb5aafdcf8384e8da59b4d8b93a0a
-      internalID: -659739505
+      spriteID: 0b87df49dba0ab64fa5417b7b4c858ce
+      internalID: 1197644613
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1277823721cd86e4e8c4e2a356f55f77
-      internalID: 1815041788
+      spriteID: d7deb036438d4b143a180c48101fa536
+      internalID: 520636451
       vertices: []
       indices: 
       edges: []
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fce04249b7f52e64d8da05ee6e4ccf57
-      internalID: 1039159031
+      spriteID: 5b5dac320ab0ad74aa41dbe4e7f5b43b
+      internalID: 1282154613
       vertices: []
       indices: 
       edges: []
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c7adba6338ee1d49801b5ecbf3d2e91
-      internalID: -1652133359
+      spriteID: 5aa421665f9b9734699c7717d4bc0c09
+      internalID: -1083243737
       vertices: []
       indices: 
       edges: []
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdfd18237232eab449a0a0ccff0bfc3d
-      internalID: -1818849329
+      spriteID: 518dc06f17cc52146825ac487da102dc
+      internalID: -1629825159
       vertices: []
       indices: 
       edges: []
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62e2f3a6c13ca694388d03e9a0f71e68
-      internalID: -736507201
+      spriteID: 78d7bd9eea2d97641a4d6346b7fb0dc3
+      internalID: -784390037
       vertices: []
       indices: 
       edges: []
@@ -245,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 688fb81c19270b8419400273599c8c66
-      internalID: 492242255
+      spriteID: 7cf14f52c6207db4cbe3fac64c5b3ac5
+      internalID: -379620337
       vertices: []
       indices: 
       edges: []
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5643d47f95f0b0c468bb76888df419ca
-      internalID: 1521666398
+      spriteID: 96c795fa936d4b34ea7b764d68849458
+      internalID: -1870102100
       vertices: []
       indices: 
       edges: []
@@ -287,8 +287,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f147aecce3410c4cb11d069df969de5
-      internalID: 2095006905
+      spriteID: bda988d708a6b3a48917d87eb787c435
+      internalID: 998623732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-walk-Personegem-Jogavel_9
+      rect:
+        serializedVersion: 2
+        x: 2745
+        y: 0
+        width: 305
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01df8b5e4e45f984fbe4d1f5330c5eea
+      internalID: 1047354604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-walk-Personegem-Jogavel_10
+      rect:
+        serializedVersion: 2
+        x: 3050
+        y: 0
+        width: 305
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cecd5b6806c31409181774b5725aa8
+      internalID: -1339468093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-walk-Personegem-Jogavel_11
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 0
+        width: 305
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7e4e450aef2ec4686727fe3fabee0c
+      internalID: 89059023
       vertices: []
       indices: 
       edges: []
@@ -304,15 +367,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sprite-walk-Personegem-Jogavel_6: 492242255
-      sprite-walk-Personegem-Jogavel_8: 2095006905
-      sprite-walk-Personegem-Jogavel_2: 1039159031
-      sprite-walk-Personegem-Jogavel_4: -1818849329
-      sprite-walk-Personegem-Jogavel_0: -659739505
-      sprite-walk-Personegem-Jogavel_3: -1652133359
-      sprite-walk-Personegem-Jogavel_7: 1521666398
-      sprite-walk-Personegem-Jogavel_1: 1815041788
-      sprite-walk-Personegem-Jogavel_5: -736507201
+      sprite-walk-Personegem-Jogavel_6: -379620337
+      sprite-walk-Personegem-Jogavel_10: -1339468093
+      sprite-walk-Personegem-Jogavel_8: 998623732
+      sprite-walk-Personegem-Jogavel_11: 89059023
+      sprite-walk-Personegem-Jogavel_2: 1282154613
+      sprite-walk-Personegem-Jogavel_4: -1629825159
+      sprite-walk-Personegem-Jogavel_0: 1197644613
+      sprite-walk-Personegem-Jogavel_9: 1047354604
+      sprite-walk-Personegem-Jogavel_3: -1083243737
+      sprite-walk-Personegem-Jogavel_7: -1870102100
+      sprite-walk-Personegem-Jogavel_1: 520636451
+      sprite-walk-Personegem-Jogavel_5: -784390037
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
