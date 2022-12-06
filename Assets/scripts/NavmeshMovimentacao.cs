@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class NavmeshMovimentacao : MonoBehaviour
 {
+    public bool EstaInteragindo { get; set; }
     public GameObject Point;
     private NavMeshAgent agent;
     void Start()
@@ -12,11 +13,21 @@ public class NavmeshMovimentacao : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+  
     }
 
 
     void Update()
     {
         agent.SetDestination(Point.transform.position);
+      if (Input.GetButtonDown("interagir"))
+        {
+            EstaInteragindo = true;
+        }
+        else
+        {
+            EstaInteragindo = false;
+        }
     }
+    
 }

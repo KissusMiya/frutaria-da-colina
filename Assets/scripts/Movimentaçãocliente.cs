@@ -14,7 +14,7 @@ public class Movimentaçãocliente : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
-        Point = GameObject.Find("point");
+        Point = GameObject.Find("pontoDoCliente");
     }
 
 
