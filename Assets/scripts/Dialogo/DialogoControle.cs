@@ -5,6 +5,7 @@ using TMPro;
 public class DialogoControle : MonoBehaviour
 {
     public GameObject PainelDialogo;
+    public GameObject BOXtotal;
     public GameObject resposta;
 
     public TextMeshProUGUI dialogo;
@@ -28,6 +29,7 @@ public class DialogoControle : MonoBehaviour
                 falaAtiva = false;
                 PainelDialogo.SetActive(false);
                 dialogo.gameObject.SetActive(false);
+                BOXtotal.SetActive(false);
                 __Iteragir.Resume();
             }
         }
@@ -35,7 +37,7 @@ public class DialogoControle : MonoBehaviour
 
     void MostraRespostas()
     {
-        //dialogo.gameObject.SetActive(false);
+
         falaAtiva = false;
         for (int i = 0; i < falas.respostas.Length; i ++)
         {
@@ -54,6 +56,7 @@ public class DialogoControle : MonoBehaviour
         falaAtiva = true;
         PainelDialogo.SetActive(true);
         dialogo.gameObject.SetActive(true); ;
+        BOXtotal.SetActive(true);
 
         dialogo.text = falas.falar;
     }

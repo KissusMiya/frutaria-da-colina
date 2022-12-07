@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3939573cf9b78be4e89a7c950364e1a2, type: 3}
   m_Name: dialogo2
   m_EditorClassIdentifier: 
-  falar: ufa que bom
+  falar: 'ta muito caro '
   respostas: []

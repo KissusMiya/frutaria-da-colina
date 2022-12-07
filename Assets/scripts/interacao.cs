@@ -20,7 +20,9 @@ public class interacao : MonoBehaviour
 
 
     public LayerMask PlayerLayer;
-    public float tamanho;
+    public float tamanhoX;
+    public float tamanhoY;
+    public float eixoX;
 
     public Camera cam;
     public GameObject BotaoD;
@@ -33,7 +35,7 @@ public class interacao : MonoBehaviour
 
     private void Interacao()
     {
-        Collider2D hit = Physics2D.OverlapBox(gameObject.transform.position + new Vector3(0,2,0), new Vector2(tamanho, tamanho), tamanho / 2, PlayerLayer);
+        Collider2D hit = Physics2D.OverlapBox(gameObject.transform.position + new Vector3(0,eixoX,0), new Vector2(tamanhoY, tamanhoX), (tamanhoY + tamanhoY) / 2, PlayerLayer);
 
  
             if (__Bdireito.BDireitoInteragir == true)
@@ -61,6 +63,6 @@ public class interacao : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;
-        Gizmos.DrawWireCube(transform.position + new Vector3(0,2,0), new Vector3(tamanho, tamanho));
+        Gizmos.DrawWireCube(transform.position + new Vector3(0,eixoX,0), new Vector3(tamanhoY, tamanhoX));
     }
 }

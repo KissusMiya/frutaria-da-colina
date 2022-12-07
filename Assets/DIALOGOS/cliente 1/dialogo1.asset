@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3939573cf9b78be4e89a7c950364e1a2, type: 3}
   m_Name: dialogo1
   m_EditorClassIdentifier: 
-  falar: da certo por favor
+  falar: quero um Aporo
   respostas:
-  - resposta: deu certo
+  - resposta: certo quero  100 ouros
     proximaFala: {fileID: 11400000, guid: ac7a2457177560e49b9d1ef140eeb904, type: 2}
-  - resposta: n deu certo
+  - resposta: 'n tenho se vira '
     proximaFala: {fileID: 11400000, guid: db275bebe2517c845a5da7532cdd8b78, type: 2}

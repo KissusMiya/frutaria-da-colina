@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3939573cf9b78be4e89a7c950364e1a2, type: 3}
   m_Name: fala1A
   m_EditorClassIdentifier: 
-  falar: teu cu
+  falar: te bom ta aqui 30 ouros
   respostas:
-  - resposta: nem vem
+  - resposta: obrigado
     proximaFala: {fileID: 0}

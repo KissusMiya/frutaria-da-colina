@@ -12,11 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3939573cf9b78be4e89a7c950364e1a2, type: 3}
   m_Name: fala1
   m_EditorClassIdentifier: 
-  falar: escolha um numero
+  falar: ola quero compra 2 komatos
   respostas:
-  - resposta: 1
+  - resposta: tenho 30 moedas de ouro
     proximaFala: {fileID: 11400000, guid: 5d880b18bada42743beabbac8947124f, type: 2}
-  - resposta: 2
-    proximaFala: {fileID: 11400000, guid: dbea53a32c271174e8f28cb495d543d9, type: 2}
-  - resposta: 3
-    proximaFala: {fileID: 11400000, guid: ad85db0b4034ffe4db95d9a34b9589a1, type: 2}
+  - resposta: n tenho vai embora
+    proximaFala: {fileID: 11400000, guid: 013f999f73fd0844992366beffe6f032, type: 2}

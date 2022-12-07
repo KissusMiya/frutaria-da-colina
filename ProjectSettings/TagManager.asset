@@ -8,6 +8,7 @@ TagManager:
   - teleport1
   - teleport3
   - teleport4
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -50,6 +51,9 @@ TagManager:
     locked: 0
   - name: player
     uniqueID: 900406093
+    locked: 0
+  - name: objetos
+    uniqueID: 2156169511
     locked: 0
   - name: UI
     uniqueID: 3992679149

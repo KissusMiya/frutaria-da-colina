@@ -12,7 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3939573cf9b78be4e89a7c950364e1a2, type: 3}
   m_Name: dialogo2b
   m_EditorClassIdentifier: 
-  falar: oque fazemos agora
-  respostas:
-  - resposta: eu realmente n sei
-    proximaFala: {fileID: 0}
+  falar: "a ent\xE3o vai a merda"
+  respostas: []
