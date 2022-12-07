@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
-public class Crop : MonoBehaviour
+public class Crop1 : MonoBehaviour
 {
     public CropSO crop;
     private SpriteRenderer _renderer;
 
-   public  void Iniciar()
+    public void Iniciar()
     {
         _renderer = GetComponent<SpriteRenderer>();
         _renderer.sprite = crop.cropsSprites[crop.stage];

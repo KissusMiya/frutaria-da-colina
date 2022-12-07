@@ -5,7 +5,6 @@ using UnityEngine;
 public class BotaoResposta : MonoBehaviour
 {
     Resposta respostaData;
-
     public void ProximaFala()
     {
         FindObjectOfType<DialogoControle>().ProximaFala(respostaData.proximaFala);

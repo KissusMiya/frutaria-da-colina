@@ -46,14 +46,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: interacao
-    uniqueID: 3650790055
-    locked: 0
   - name: player
     uniqueID: 900406093
     locked: 0
   - name: objetos
     uniqueID: 2156169511
+    locked: 0
+  - name: interacao
+    uniqueID: 3650790055
     locked: 0
   - name: UI
     uniqueID: 3992679149

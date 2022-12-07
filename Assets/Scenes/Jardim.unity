@@ -451,7 +451,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 31295886}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -32.8, y: 80.9, z: 0}
+  m_LocalPosition: {x: -47.799995, y: 97.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -574,7 +574,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130975281}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -46.85, y: 53.88, z: 0}
+  m_LocalPosition: {x: -61.85, y: 70.78, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -867,7 +867,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167866544}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -54.561687, y: 51.54297, z: 0}
+  m_LocalPosition: {x: -69.56168, y: 68.44297, z: 0}
   m_LocalScale: {x: 0.21043, y: 5.9105997, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1040,7 +1040,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198819704}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -14.999998, y: 16.900002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1060,7 +1060,7 @@ GameObject:
   - component: {fileID: 211781681}
   - component: {fileID: 211781680}
   m_Layer: 5
-  m_Name: plantar
+  m_Name: plantarAporo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1133,7 +1133,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1467653758}
         m_TargetAssemblyTypeName: menuInteracao, Assembly-CSharp
-        m_MethodName: platar
+        m_MethodName: platarAporo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1428,8 +1428,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 92.7, y: -6}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 23.3, y: -8.599998}
+  m_SizeDelta: {x: 65.15, y: 41.87}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &253830867
 MonoBehaviour:
@@ -1478,8 +1478,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1659,8 +1659,8 @@ MonoBehaviour:
   PlayerLayer:
     serializedVersion: 2
     m_Bits: 128
-  tamanhoX: 0
-  tamanhoY: 0
+  tamanhoX: 5
+  tamanhoY: 5
   eixoX: 0
   cam: {fileID: 348875192}
   BotaoD: {fileID: 1899137614}
@@ -1786,8 +1786,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 60, y: -152}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 60, y: -126.5}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &404352576
 MonoBehaviour:
@@ -1941,15 +1941,15 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 521387567}
   - {fileID: 2092839234}
+  - {fileID: 521387567}
   m_Father: {fileID: 1267387368}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 60, y: -39}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &473284163
 MonoBehaviour:
@@ -2020,12 +2020,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 473284162}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 92, y: -11.900002}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 23.5, y: -14}
+  m_SizeDelta: {x: 62.58, y: 50.43}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &521387568
 MonoBehaviour:
@@ -2074,8 +2074,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2148,7 +2148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560239872}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -27.6, y: 71.6, z: 0}
+  m_LocalPosition: {x: -42.6, y: 88.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3404,7 +3404,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023571062}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -45.59, y: 50.890003, z: 0}
+  m_LocalPosition: {x: -60.589996, y: 67.79001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4264,9 +4264,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'plantar
-
-'
+  m_text: "plantar Apor\xF3"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4293,8 +4291,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4558,7 +4556,7 @@ GameObject:
   - component: {fileID: 1440060955}
   - component: {fileID: 1440060954}
   m_Layer: 5
-  m_Name: regar
+  m_Name: plantarKomato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4631,7 +4629,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1467653758}
         m_TargetAssemblyTypeName: menuInteracao, Assembly-CSharp
-        m_MethodName: Reagar
+        m_MethodName: platarKomato
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4895,6 +4893,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5874cbe4c39b614ca9b2b48b3ad15ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  __IniciarAporo: {fileID: 1930923299}
+  __IniciarKomato: {fileID: 1930923300}
   __iniciarDialogo: {fileID: 0}
   cam: {fileID: 348875192}
   InteracaoMenuUI: {fileID: 1346056925}
@@ -4935,7 +4935,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 5}
-  m_SizeDelta: {x: 160, y: 160}
+  m_SizeDelta: {x: 140, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1472002467
 MonoBehaviour:
@@ -5907,8 +5907,8 @@ MonoBehaviour:
   PlayerLayer:
     serializedVersion: 2
     m_Bits: 128
-  tamanhoX: 0
-  tamanhoY: 0
+  tamanhoX: 5
+  tamanhoY: 5
   eixoX: 0
   cam: {fileID: 348875192}
   BotaoD: {fileID: 1899137614}
@@ -6057,7 +6057,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2138797785
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 913b300f7ec72f341ac9e4ccbaaf7976, type: 3}
   m_Color: {r: 0.18243897, g: 0.15218937, b: 0.18867922, a: 1}
@@ -6483,7 +6483,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1899137614}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -49.44, y: 53.52, z: 0}
+  m_LocalPosition: {x: -64.439995, y: 70.42, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6502,8 +6502,8 @@ GameObject:
   - component: {fileID: 1930923293}
   - component: {fileID: 1930923296}
   - component: {fileID: 1930923297}
-  - component: {fileID: 1930923298}
   - component: {fileID: 1930923299}
+  - component: {fileID: 1930923300}
   m_Layer: 6
   m_Name: canteiro 1
   m_TagString: Untagged
@@ -6623,24 +6623,12 @@ MonoBehaviour:
   PlayerLayer:
     serializedVersion: 2
     m_Bits: 128
-  tamanhoX: 0
-  tamanhoY: 0
+  tamanhoX: 5
+  tamanhoY: 5
   eixoX: 0
   cam: {fileID: 348875192}
   BotaoD: {fileID: 1899137614}
   BotaoE: {fileID: 1023571062}
---- !u!114 &1930923298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1930923291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5826193facabd44ab58aaf8f4bfdb93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1930923299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6648,12 +6636,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930923291}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b673f8e9de5b004ba189f77278f7444, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   crop: {fileID: 11400000, guid: f8d5b0eaaf9a24644acc5a4f87c2d7dd, type: 2}
+--- !u!114 &1930923300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930923291}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e08c3ba96c2d5d49a9fc6c53260ff28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crop: {fileID: 11400000, guid: a193ced289e2f9b438997a0e163657ec, type: 2}
 --- !u!1 &1938408693
 GameObject:
   m_ObjectHideFlags: 0
@@ -6796,9 +6797,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'regar
-
-'
+  m_text: plantar Komato
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6825,8 +6824,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6990,12 +6989,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 473284162}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 140, y: 140}
+  m_SizeDelta: {x: 110, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2092839235
 MonoBehaviour:

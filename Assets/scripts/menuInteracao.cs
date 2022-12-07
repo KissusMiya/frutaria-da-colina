@@ -5,7 +5,12 @@ using UnityEngine.UIElements;
 
 public class menuInteracao : MonoBehaviour
 {
- 
+    [SerializeField]
+    private Crop __IniciarAporo;
+
+    [SerializeField]
+    private Crop1 __IniciarKomato;
+
     [SerializeField]
     private Conversa __iniciarDialogo;
 
@@ -45,18 +50,14 @@ public class menuInteracao : MonoBehaviour
 
     public void platarAporo()
     {
-        Debug.Log("plantando Aporo");
+        __IniciarAporo.Iniciar();
     }
 
     public void platarKomato()
     {
-        Debug.Log("plantando komatos");
+        __IniciarKomato.Iniciar();
     }
 
-    public void Reagar()
-    {
-        Debug.Log("reagando...");
-    }
 
     public void Colher()
     {
