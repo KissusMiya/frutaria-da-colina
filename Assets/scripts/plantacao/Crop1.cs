@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 [RequireComponent(typeof(SpriteRenderer))]
 public class Crop1 : MonoBehaviour
 {
+    public int Komato = 0;
+    public TMP_Text scoreKomato;
     public CropSO crop;
     private SpriteRenderer _renderer;
 
@@ -27,6 +30,9 @@ public class Crop1 : MonoBehaviour
         if (crop.stage == 5)
         {
             Debug.Log("Its Science, Bitch!");
+            Komato = Komato ++;
+            scoreKomato.text = Komato.ToString("0");
+                
         }
     }
 

@@ -20,6 +20,8 @@ public class menuInteracao : MonoBehaviour
 
     public GameObject InteracaoMenuUI;
     public GameObject BotaoD;
+
+    
     public void ChamaMenu()
     {
         if (PauseGame)

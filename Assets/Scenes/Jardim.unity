@@ -695,8 +695,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: -9095717837082945937, guid: 34587324d412940a79d530020c957dc0, type: 3}
-  m_Color: {r: 0.06755074, g: 0.24390177, b: 0.4339623, a: 1}
+  m_Sprite: {fileID: 1197644613, guid: 83a2f1b3f5de21f4a968417e2adf7457, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1539,6 +1539,8 @@ GameObject:
   - component: {fileID: 343069248}
   - component: {fileID: 343069247}
   - component: {fileID: 343069250}
+  - component: {fileID: 343069253}
+  - component: {fileID: 343069252}
   - component: {fileID: 343069251}
   m_Layer: 6
   m_Name: canteiro 3
@@ -1665,6 +1667,36 @@ MonoBehaviour:
   cam: {fileID: 348875192}
   BotaoD: {fileID: 1899137614}
   BotaoE: {fileID: 1023571062}
+--- !u!114 &343069252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343069245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e08c3ba96c2d5d49a9fc6c53260ff28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Komato: 0
+  scoreKomato: {fileID: 253830867}
+  crop: {fileID: 11400000, guid: a193ced289e2f9b438997a0e163657ec, type: 2}
+--- !u!114 &343069253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343069245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b673f8e9de5b004ba189f77278f7444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Aporo: 0
+  scoreAporo: {fileID: 521387568}
+  crop: {fileID: 11400000, guid: f8d5b0eaaf9a24644acc5a4f87c2d7dd, type: 2}
 --- !u!1 &348875191
 GameObject:
   m_ObjectHideFlags: 0
@@ -1693,7 +1725,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3076,7 +3108,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -2}
+  m_AnchoredPosition: {x: -151830.6, y: 103709.055}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &983544716
@@ -4987,6 +5019,7 @@ GameObject:
   - component: {fileID: 1490670467}
   - component: {fileID: 1490670466}
   - component: {fileID: 1490670465}
+  - component: {fileID: 1490670468}
   m_Layer: 5
   m_Name: sair
   m_TagString: Untagged
@@ -5109,6 +5142,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1490670463}
   m_CullTransparentMesh: 1
+--- !u!114 &1490670468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490670463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daaa507d02ecb6047bb16b5447c1ab1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  __IniciarAporo: {fileID: 0}
+  __IniciarKomato: {fileID: 0}
+  __Interacao: {fileID: 0}
 --- !u!1 &1491704315
 GameObject:
   m_ObjectHideFlags: 0
@@ -5787,6 +5835,8 @@ GameObject:
   - component: {fileID: 1815947687}
   - component: {fileID: 1815947686}
   - component: {fileID: 1815947689}
+  - component: {fileID: 1815947692}
+  - component: {fileID: 1815947691}
   - component: {fileID: 1815947690}
   m_Layer: 6
   m_Name: canteiro 2
@@ -5913,6 +5963,36 @@ MonoBehaviour:
   cam: {fileID: 348875192}
   BotaoD: {fileID: 1899137614}
   BotaoE: {fileID: 1023571062}
+--- !u!114 &1815947691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815947684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e08c3ba96c2d5d49a9fc6c53260ff28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Komato: 0
+  scoreKomato: {fileID: 253830867}
+  crop: {fileID: 11400000, guid: a193ced289e2f9b438997a0e163657ec, type: 2}
+--- !u!114 &1815947692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815947684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b673f8e9de5b004ba189f77278f7444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Aporo: 0
+  scoreAporo: {fileID: 521387568}
+  crop: {fileID: 11400000, guid: f8d5b0eaaf9a24644acc5a4f87c2d7dd, type: 2}
 --- !u!1 &1824338474
 GameObject:
   m_ObjectHideFlags: 0
@@ -6244,7 +6324,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893002070}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 262, y: 198, z: 167.21738}
+  m_LocalPosition: {x: 262, y: 160, z: 167.21738}
   m_LocalScale: {x: 22.125145, y: 22.125145, z: 22.125145}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6636,11 +6716,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930923291}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b673f8e9de5b004ba189f77278f7444, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Aporo: 0
+  scoreAporo: {fileID: 521387568}
   crop: {fileID: 11400000, guid: f8d5b0eaaf9a24644acc5a4f87c2d7dd, type: 2}
 --- !u!114 &1930923300
 MonoBehaviour:
@@ -6649,11 +6731,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930923291}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e08c3ba96c2d5d49a9fc6c53260ff28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Komato: 0
+  scoreKomato: {fileID: 253830867}
   crop: {fileID: 11400000, guid: a193ced289e2f9b438997a0e163657ec, type: 2}
 --- !u!1 &1938408693
 GameObject:
