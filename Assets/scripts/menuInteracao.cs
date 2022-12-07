@@ -5,9 +5,7 @@ using UnityEngine.UIElements;
 
 public class menuInteracao : MonoBehaviour
 {
-    [SerializeField]
-    private VerificarParaPlantar __PodePlantar;
-
+ 
     [SerializeField]
     private Conversa __iniciarDialogo;
 
@@ -45,9 +43,14 @@ public class menuInteracao : MonoBehaviour
         PauseGame = true;
     }
 
-    public void platar()
+    public void platarAporo()
     {
-        __PodePlantar.Plantar();
+        Debug.Log("plantando Aporo");
+    }
+
+    public void platarKomato()
+    {
+        Debug.Log("plantando komatos");
     }
 
     public void Reagar()

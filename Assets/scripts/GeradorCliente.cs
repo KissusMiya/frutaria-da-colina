@@ -31,8 +31,8 @@ public class GeradorCliente : MonoBehaviour
     {
         numeroAleatorio = Random.Range(0, 2);
 
-        Instantiate(clientes[numeroAleatorio], geradorcliente.position, Quaternion.Euler(0f, 0f, 0f));
-
+        GameObject go = Instantiate(clientes[numeroAleatorio], geradorcliente.position, Quaternion.Euler(0f, 0f, 0f));
+        go.SetActive(true);
         tempoAtula = tempoMaximoGerar;
     }
 }

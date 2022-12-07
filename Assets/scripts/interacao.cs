@@ -33,7 +33,7 @@ public class interacao : MonoBehaviour
 
     private void Interacao()
     {
-        Collider2D hit = Physics2D.OverlapBox(gameObject.transform.position + new Vector3(0,2,0), new Vector2(2, tamanho), tamanho / 2, PlayerLayer);
+        Collider2D hit = Physics2D.OverlapBox(gameObject.transform.position + new Vector3(0,2,0), new Vector2(tamanho, tamanho), tamanho / 2, PlayerLayer);
 
  
             if (__Bdireito.BDireitoInteragir == true)
@@ -61,6 +61,6 @@ public class interacao : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;
-        Gizmos.DrawCube(transform.position, new Vector3(2, tamanho));
+        Gizmos.DrawWireCube(transform.position + new Vector3(0,2,0), new Vector3(tamanho, tamanho));
     }
 }

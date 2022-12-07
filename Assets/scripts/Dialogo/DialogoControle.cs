@@ -35,7 +35,7 @@ public class DialogoControle : MonoBehaviour
 
     void MostraRespostas()
     {
-        dialogo.gameObject.SetActive(false);
+        //dialogo.gameObject.SetActive(false);
         falaAtiva = false;
         for (int i = 0; i < falas.respostas.Length; i ++)
         {
