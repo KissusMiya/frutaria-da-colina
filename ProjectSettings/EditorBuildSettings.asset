@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8b633480667fdd5479dbcf300eae8047
+  - enabled: 1
     path: Assets/Scenes/Loja.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -15,9 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Jardim.unity
     guid: 399cce8f6e421184e9d3223d73d23286
   - enabled: 0
-    path: Assets/Scenes/QuartoLoja.unity
-    guid: 79becedaab0e751459b1eee1c79e24a4
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/JardimLoja.unity
-    guid: 5078c2b077eb0c04e94522342eec08e0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
